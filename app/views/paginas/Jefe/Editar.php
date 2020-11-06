@@ -9,7 +9,7 @@ include RUTA_APP . '/views/inc/cabeza.inc.php';?>
 <title>Editar Información</title>
 </head>
 <body>
- <p style="text-align: center; font-size: 30px;"><b>Editar empleado</b></h3></p>
+ <p style="text-align: center; font-size: 30px;"><b>Editar datos del empleado</b></h3></p>
  <div class="container">
   <div class="card bg-success text-white">
    <div class="card-header bg-dark">
@@ -37,10 +37,10 @@ include RUTA_APP . '/views/inc/cabeza.inc.php';?>
     <label for="Rfc">R.F.C</label>
     <input type="text" class="form-control" id="Rfc" name="Rfc" value="<?php echo $datos['Rfc']; ?>" aria-describedby="R.F.C" >
     
-    <label for="Telefono">Teléfono</label>
+    <label for="Telefono">Celular</label>
     <input type="text" class="form-control" id="Telefono" name="Telefono" value="<?php echo $datos['Telefono']; ?>" aria-describedby="Telefono" >
     
-    <label for="Correo">Correo Electronico</label>
+    <label for="Correo">Email</label>
     <input type="email" class="form-control" id="Correo" name="Correo" value="<?php echo $datos['Correo']; ?>" aria-describedby="Correo" >
     
     <label for="NSS">N.S.S</label>

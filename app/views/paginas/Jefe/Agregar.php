@@ -37,10 +37,10 @@ include RUTA_APP . '/views/inc/cabeza.inc.php';?>
     <label for="Rfc">R.F.C</label>
     <input type="text" class="form-control" name="Rfc" id="Rfc" value="<?php echo $datos['Rfc']; ?>" aria-describedby="R.F.C" placeholder="VECJ880326 XXX">
     
-    <label for="Telefono">Teléfono</label>
+    <label for="Telefono">Celular</label>
     <input type="text" class="form-control" name="Telefono" id="Telefono"  value="<?php echo $datos['Telefono']; ?>" aria-describedby="Telefono" placeholder="810633456">
     
-    <label for="Correo">Correo Electrónico</label>
+    <label for="Correo">Email</label>
     <input type="email" class="form-control" name="Correo" id="Correo" value="<?php echo $datos['Correo']; ?>" aria-describedby="Correo" placeholder="correoEjemp21@dominio.com">
     
     <label for="NSS">N.S.S</label>
