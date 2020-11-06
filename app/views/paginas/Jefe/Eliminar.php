@@ -38,7 +38,7 @@ include RUTA_APP . '/views/inc/cabeza.inc.php';?>
         <option selected value="1">Operador</option>
         <option value="2">Cocedores</option>
         <option value="3">Intendencia</option>
-        <option value="4">Empaquetado</option>
+        <option value="4">Empaquetador</option>
         <option value="5">Repartidor</option>
     </select>
    <label for="Turno">Turno</label>
